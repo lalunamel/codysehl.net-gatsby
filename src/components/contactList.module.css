@@ -1,0 +1,19 @@
+.contactList {
+	margin: 0 auto;
+	margin-top: 100px;
+	margin-bottom: 80px;
+}
+
+.item {
+	color: var(--red);
+	display: block;
+	text-align: center;
+	margin-top: 6px;
+	margin-bottom: 6px;
+	font-size: 20px;
+	text-decoration: none;
+}
+
+.item:hover {
+	text-decoration: underline;
+}
