@@ -1,18 +1,18 @@
 import React from "react"
 
-import { Link } from "gatsby"
-
 import Nav from "../components/nav"
+import Header from "../components/header"
+import Subheader from "../components/subheader"
 
 export default () => (
   <>
     <Nav />
 
-    <h2>Cody Sehl</h2>
-    <div>
+    <Header>Cody Sehl</Header>
+    <Subheader>
       is a software developer in Denver, Colorado. <br />
       He currently works as a Senior Android Developer at POSSIBLE Mobile.
-    </div>
+    </Subheader>
 
     <div>
       <ol>

@@ -1,0 +1,134 @@
+/*
+ * 
+ * Fonts 
+ *
+ */
+
+/* Light / 300 */
+
+@font-face {
+	font-family: 'Futura PT';
+	src: url('../fonts/FuturaPTLight.woff') format('woff');
+	font-weight: 300;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Futura PT';
+	src: url('../fonts/FuturaPTLightOblique.woff') format('woff');
+	font-weight: 300;
+	font-style: italic;
+}
+
+/* Book / 400 */
+
+@font-face {
+	font-family: 'Futura PT';
+	src: url('../fonts/FuturaPTBook.woff') format('woff');
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Futura PT';
+	src: url('../fonts/FuturaPTBookOblique.woff') format('woff');
+	font-weight: 400;
+	font-style: italic;
+}
+
+/* Medium / 500 */
+
+@font-face {
+	font-family: 'Futura PT';
+	src: url('../fonts/FuturaPTMedium.woff') format('woff');
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Futura PT';
+	src: url('../fonts/FuturaPTMediumOblique.woff') format('woff');
+	font-weight: 500;
+	font-style: italic;
+}
+
+/* Demi / 600 */
+
+@font-face {
+	font-family: 'Futura PT';
+	src: url('../fonts/FuturaPTDemi.woff') format('woff');
+	font-weight: 600;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Futura PT';
+	src: url('../fonts/FuturaPTDemiOblique.woff') format('woff');
+	font-weight: 600;
+	font-style: italic;
+}
+
+/* Heavy / 700 */
+
+@font-face {
+	font-family: 'Futura PT';
+	src: url('../fonts/FuturaPTHeavy.woff') format('woff');
+	font-weight: 700;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Futura PT';
+	src: url('../fonts/FuturaPTHeavyOblique.woff') format('woff');
+	font-weight: 700;
+	font-style: italic;
+}
+
+/* Bold / 800 */
+
+@font-face {
+	font-family: 'Futura PT';
+	src: url('../fonts/FuturaPTBold.woff') format('woff');
+	font-weight: 800;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Futura PT';
+	src: url('../fonts/FuturaPTBoldOblique.woff') format('woff');
+	font-weight: 800;
+	font-style: italic;
+}
+
+/* Extra Bold / 900 */
+
+@font-face {
+	font-family: 'Futura PT';
+	src: url('../fonts/FuturaPTExtraBold.woff') format('woff');
+	font-weight: 900;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Futura PT';
+	src: url('../fonts/FuturaPTExtraBoldOblique.woff') format('woff');
+	font-weight: 900;
+	font-style: italic;
+}
+
+body {
+	font-family: "Futura PT", futura, sans-serif
+}
+
+/*
+ * 
+ * Colors 
+ *
+ */
+
+:root {
+	--blue: hsl(200.5, 69.3%, 50.2%);
+	--black: hsl(0, 0%, 4.3%);
+	--black-light: hsl(0, 0%, 32.3%);
+	--red: hsl(356.9, 85.3%, 60%);
+}

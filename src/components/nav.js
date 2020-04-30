@@ -1,20 +1,20 @@
 import React from "react"
 import { Link } from "gatsby"
 
+import styles from "./nav.module.css"
+
 const Nav = props => {
   return (
-    <div>
-      <ol>
-        <li>
-          <Link to={"/"}>About</Link>
-        </li>
-        <li>
-          <Link to={"/work"}>Work</Link>
-        </li>
-        <li>
-          <Link to={"/blog"}>Blog</Link>
-        </li>
-      </ol>
+    <div className={styles.nav}>
+      <Link className={styles.link} to={"/"}>
+        About
+      </Link>
+      <Link className={styles.link} to={"/work/"}>
+        Work
+      </Link>
+      <Link className={styles.link} to={"/blog"}>
+        Blog
+      </Link>
     </div>
   )
 }
