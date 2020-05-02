@@ -5,3 +5,12 @@
 body {
 	font-family: "Futura PT", futura, sans-serif
 }
+
+a {
+	color: var(--red);
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
