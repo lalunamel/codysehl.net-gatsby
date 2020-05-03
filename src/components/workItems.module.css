@@ -27,8 +27,4 @@
 
 .showAllItems:hover {
   cursor: pointer;
-  /* border: none;
-  background: none;
-  padding: 0;
-  color: var(--red); */
 }
