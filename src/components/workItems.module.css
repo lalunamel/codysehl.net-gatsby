@@ -1,96 +1,100 @@
 .workList {
-  margin: 0 auto;
-  text-align: center;
-  margin-top: 50px;
-  font-size: 28px;
+	margin: 0 auto;
+	text-align: center;
+	margin-top: 50px;
+	font-size: 28px;
 }
 
 .workListItem {
-  display: block;
-  margin-top: 15px;
+	display: block;
+	margin-top: 15px;
 }
 
 .workListItem:not(:last-child):after {
-  content: "";
-  margin: 0 auto;
-  margin-top: 10px;
-  display: block;
-  border-top: 2px solid var(--blue);
-  width: 10px;
+	content: "";
+	margin: 0 auto;
+	margin-top: 10px;
+	display: block;
+	border-top: 2px solid var(--blue);
+	width: 10px;
 }
 
 .workContent {
-  display: grid;
-  grid-template-columns: auto;
-  justify-content: center;
-  margin-left: 18%;
-  margin-right: 18%;
-  margin-bottom: 80px;
+	display: grid;
+	grid-template-columns: auto;
+	justify-content: center;
+	margin-left: 18%;
+	margin-right: 18%;
+	margin-bottom: 80px;
 }
 
 @media (min-width: 300px) {
-  .workContent {
-    margin-left: 12%;
-    margin-right: 12%;
-  }
+	.workContent {
+		margin-left: 12%;
+		margin-right: 12%;
+	}
 }
 
 @media (min-width: 500px) {
-  .workContent {
-    margin-left: 15%;
-    margin-right: 15%;
-  }
+	.workContent {
+		margin-left: 15%;
+		margin-right: 15%;
+	}
 }
 
 @media (min-width: 700px) {
-  .workContent {
-    grid-template-columns: auto auto;
-    margin-left: 12%;
-    margin-right: 12%;
-    column-gap: 10%;
-    margin-bottom: 120px;
-  }
+	.workContent {
+		grid-template-columns: auto auto;
+		margin-left: 12%;
+		margin-right: 12%;
+		column-gap: 10%;
+		margin-bottom: 120px;
+	}
 }
 
 .workContentItem {
-  max-width: 400px;
+	max-width: 400px;
 }
 
 .workContentItem a {
-  text-decoration-color: var(--black);
+	text-decoration-color: var(--black);
 }
 
 .workContentItemImage {
-  width: 100%;
-  margin: 0 auto;
-  margin-bottom: 10px;
+	width: 100%;
+	margin: 0 auto;
+	margin-bottom: 10px;
 }
 
 .workContentItemName {
-  color: var(--black);
-  font-size: 25px;
-  font-weight: 500;
-  text-decoration: underline;
-  text-align: left;
+	color: var(--black);
+	font-size: 22px;
+	font-weight: 500;
+	text-decoration: underline;
+	text-align: left;
 }
 
 .workContentItemLocation {
-  color: var(--black);
-  font-size: 25px;
-  margin-top: 2px;
-  font-weight: 400;
-  text-decoration: none;
-  text-align: left;
+	color: var(--black);
+	font-size: 22px;
+	margin-top: 2px;
+	font-weight: 400;
+	text-decoration: none;
+	text-align: left;
 }
 
 .workContentItemDescription {
-  margin-top: 10px;
-  text-align: left;
-  font-size: 22px;
-  color: var(--black-light);
-  line-height: 1.2;
+	margin-top: 10px;
+	text-align: left;
+	font-size: 21px;
+	color: var(--black-light);
+	line-height: 1.1;
+}
+
+.workContentItemDescription p {
+	margin-bottom: 24px;
 }
 
 .showAllItems:hover {
-  cursor: pointer;
+	cursor: pointer;
 }
