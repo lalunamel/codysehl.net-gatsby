@@ -41,11 +41,15 @@ const WorkContentItem = props => {
   return (
     <div id={props.localHref} className={styles.workContentItem}>
       <a href={props.website}>
-        <img src={props.image} alt={props.name} />
-        <h3>{props.name}</h3>
-        <h3>{props.location}</h3>
+        <img
+          className={styles.workContentItemImage}
+          src={props.image}
+          alt={props.name}
+        />
+        <h3 className={styles.workContentItemName}>{props.name}</h3>
+        <h3 className={styles.workContentItemLocation}>{props.location}</h3>
       </a>
-      <p>{props.description}</p>
+      <p className={styles.workContentItemDescription}>{props.description}</p>
     </div>
   )
 }
