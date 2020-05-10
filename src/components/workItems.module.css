@@ -20,10 +20,40 @@
 }
 
 .workContent {
-  margin: 0 22% 0 22%;
+  display: grid;
+  grid-template-columns: auto;
+  justify-content: center;
+  margin-left: 18%;
+  margin-right: 18%;
+  margin-bottom: 80px;
+}
+
+@media (min-width: 300px) {
+  .workContent {
+    margin-left: 12%;
+    margin-right: 12%;
+  }
+}
+
+@media (min-width: 500px) {
+  .workContent {
+    margin-left: 15%;
+    margin-right: 15%;
+  }
+}
+
+@media (min-width: 700px) {
+  .workContent {
+    grid-template-columns: auto auto;
+    margin-left: 12%;
+    margin-right: 12%;
+    column-gap: 10%;
+    margin-bottom: 120px;
+  }
 }
 
 .workContentItem {
+  max-width: 400px;
 }
 
 .workContentItem a {
