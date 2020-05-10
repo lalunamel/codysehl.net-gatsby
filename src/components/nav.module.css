@@ -8,8 +8,21 @@
 	padding-top: 10px;
 }
 
+@media (min-width: 450px) {
+	.nav {
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		height: 60px;
+	}
+
+	.link {
+		margin: 0 50px;
+	}
+}
+
 .link {
 	color: var(--blue);
 	text-decoration: none;
-	margin-bottom: 10px;
+	margin-bottom: 20px;
 }

@@ -12,9 +12,9 @@ const Nav = props => {
       <Link className={styles.link} to={"/work/"}>
         Work
       </Link>
-      <Link className={styles.link} to={"/blog"}>
+      <a className={styles.link} href={"https://blog.codysehl.net/"}>
         Blog
-      </Link>
+      </a>
     </div>
   )
 }
