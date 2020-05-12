@@ -22,11 +22,11 @@ import anamorphicTypography from "./work-assets/anamorphicTypography.png"
 import dashboard from "./work-assets/dashboard.png"
 import nodejs from "./work-assets/nodejs.png"
 
-const workItems = [
+const items = [
   {
     image: possibleMobile,
     website: "https://possiblemobile.com/",
-    name: "POSSIBLE Mobile 1",
+    name: "POSSIBLE Mobile",
     location: "Denver",
     description:
       "The thing that has drawn me to POSSIBLE Mobile is their deep technical experience. At POSSIBLE I regularly get to work with people who have 5-10 years of Android experience. I've hugely enjoyed getting into the details and learning as much as I can about the Android platform.\n\n\n\nI currently work here as a Senior Android Developer.",
@@ -175,7 +175,7 @@ const Work = props => {
         if you want a hard copy.
       </Subheader>
 
-      <WorkItems items={workItems} />
+      <WorkItems items={items} />
     </>
   )
 }

@@ -1,6 +1,5 @@
 import React, { useState } from "react"
-import { markdown } from "markdown"
-
+import Markdown from "react-remarkable"
 import styles from "./workItems.module.css"
 
 const WorkListItem = props => {
@@ -39,8 +38,6 @@ const WorkList = props => {
 }
 
 const WorkContentItem = props => {
-  const markdownDescription = markdown.toHTML(props.description)
-
   return (
     <div id={props.localHref} className={styles.workContentItem}>
       <a href={props.website}>
@@ -52,10 +49,9 @@ const WorkContentItem = props => {
         <h3 className={styles.workContentItemName}>{props.name}</h3>
         <h3 className={styles.workContentItemLocation}>{props.location}</h3>
       </a>
-      <p
-        className={styles.workContentItemDescription}
-        dangerouslySetInnerHTML={{ __html: markdownDescription }}
-      ></p>
+      <div className={styles.workContentItemDescription}>
+        <Markdown>{props.description}</Markdown>
+      </div>
     </div>
   )
 }
