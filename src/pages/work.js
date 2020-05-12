@@ -146,8 +146,8 @@ const items = [
   {
     image: nodejs,
     website: "https://github.com/lalunamel/NodeDynamicImageServer",
-    name: "asdfasdfasdfasdf",
-    location: "butts",
+    name: "Node Image Server",
+    location: "Lake Forest",
     description:
       "This was a simple node tutorial created as much for others as it was for myself. The tutorial guides the developer through the steps it takes to create a dynamic image server, not unlike a site like Placekitten. Creating this tutorial really forced me to become conversant with the fine details of node — there's no faking it when you have to explain a technology. I loved learning about the nitty-gritty of node, though I regret that I have not had the opportunity to use it since.",
   },
