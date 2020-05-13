@@ -85,12 +85,17 @@
 	text-decoration-color: var(--black);
 }
 
+.workContentItemDescription a:hover {
+	text-decoration-color: var(--red);
+}
+
 .workContentItemDescription {
 	margin-top: 10px;
 	text-align: left;
 	font-size: 21px;
 	color: var(--black-light);
-	line-height: 1.1;
+	line-height: 1.2;
+	letter-spacing: -0.05px;
 }
 
 .workContentItemDescription p {
