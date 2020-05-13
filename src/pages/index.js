@@ -14,7 +14,7 @@ export default () => (
       <Header>Cody Sehl</Header>
       <Subheader>
         is a software developer in Denver, Colorado. <br />
-        He currently works as a Senior Android Developer at POSSIBLE Mobile.
+        He currently works as a Software Developer at Gusto.
       </Subheader>
     </PageHeader>
 

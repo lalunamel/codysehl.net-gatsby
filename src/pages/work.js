@@ -6,6 +6,7 @@ import Subheader from "../components/subheader"
 import PageHeader from "../components/pageHeader"
 import WorkItems from "../components/workItems"
 
+import gusto from "./work-assets/gusto.png"
 import possibleMobile from "./work-assets/possibleMobile.png"
 import turing from "./work-assets/turing.png"
 import tracker from "./work-assets/tracker.png"
@@ -24,12 +25,20 @@ import nodejs from "./work-assets/nodejs.png"
 
 const items = [
   {
+    image: gusto,
+    website: "https://gusto.com/",
+    name: "Gusto",
+    location: "Denver",
+    description:
+      "Gusto's mission is to create a world where work empowers a better life. Each and every person here believes fully in that mission, and every day I'm reminded that I work with some of the most kind, talented, and curious individuals in existence.\n\nI currently work here as a Software Developer making payments faster.",
+  },
+  {
     image: possibleMobile,
     website: "https://possiblemobile.com/",
     name: "POSSIBLE Mobile",
     location: "Denver",
     description:
-      "The thing that has drawn me to POSSIBLE Mobile is their deep technical experience. At POSSIBLE I regularly get to work with people who have 5-10 years of Android experience. I've hugely enjoyed getting into the details and learning as much as I can about the Android platform.\n\n\n\nI currently work here as a Senior Android Developer.",
+      "After being exposed to the mobile ecosystem at Pivotal I wanted to explore the space more fully and so I ended up at POSSIBLE Mobile building for brands like NBA, PGA Tour, ConEd and Pokemon.\n\nAt POSSIBLE, I was able to work on a bunch of wildly different projects in a short amount of time. The pace of change really drove home the value of getting things done over the value of getting them perfect. That pace carried into the client space as well; I learned how to manage and interact with clients that really just want their thing built and don't want to hear about the why's and buts behind the technical choices you made along the way.\n\nI'm so glad I got to work at POSSIBLE, invest in my client-facing skills, and dive deep into the mobile ecosystem.",
   },
   {
     image: turing,
