@@ -5,9 +5,6 @@ import styles from "./contactList.module.css"
 const ContactList = props => {
   return (
     <div className={styles.contactList}>
-      <a className={styles.item} href="mailto:cody.sehl@gmail.com">
-        cody.sehl@gmail.com
-      </a>
       <a className={styles.item} href="https://github.com/lalunamel">
         GitHub
       </a>
