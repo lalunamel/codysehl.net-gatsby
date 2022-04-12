@@ -177,7 +177,7 @@ const Work = props => {
         </Subheader>
       </PageHeader>
       <Subheader style={{ textAlign: "center", marginTop: 50 }}>
-        Take a look at my{" "}
+        See <a href="https://www.notion.so/What-other-people-have-to-say-about-me-670237912b9e4ecc98c6a6f61339077f">what others have to say</a> about working with me or <br/> take a look at my{" "}
         <a
           href={resume}
         >
