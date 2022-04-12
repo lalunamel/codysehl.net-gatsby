@@ -1,6 +1,6 @@
 import React from "react"
 
-import styles from "./contactList.module.css"
+import * as styles from "./contactList.module.css"
 
 const ContactList = props => {
   return (

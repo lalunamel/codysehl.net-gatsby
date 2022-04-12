@@ -1,7 +1,7 @@
 import React from "react"
 import { Link } from "gatsby"
 
-import styles from "./nav.module.css"
+import * as styles from "./nav.module.css"
 
 const Nav = props => {
   return (

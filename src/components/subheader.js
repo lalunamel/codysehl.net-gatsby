@@ -1,6 +1,6 @@
 import React from "react"
 
-import styles from "./subheader.module.css"
+import * as styles from "./subheader.module.css"
 
 const Subheader = props => {
   return (

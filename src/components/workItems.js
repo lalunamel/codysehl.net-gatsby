@@ -1,6 +1,6 @@
 import React, { useState } from "react"
 import Markdown from "react-remarkable"
-import styles from "./workItems.module.css"
+import * as styles from "./workItems.module.css"
 
 const WorkListItem = props => {
   return (

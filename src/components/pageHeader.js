@@ -1,6 +1,6 @@
 import React from "react"
 
-import styles from "./pageHeader.module.css"
+import * as styles from "./pageHeader.module.css"
 
 const PageHeader = props => {
   return (
