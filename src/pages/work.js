@@ -23,6 +23,8 @@ import anamorphicTypography from "./work-assets/anamorphicTypography.png"
 import dashboard from "./work-assets/dashboard.png"
 import nodejs from "./work-assets/nodejs.png"
 
+import resume from "./work-assets/Resume-CodySehl.pdf"
+
 const items = [
   {
     image: gusto,
@@ -177,7 +179,7 @@ const Work = props => {
       <Subheader style={{ textAlign: "center", marginTop: 50 }}>
         Take a look at my{" "}
         <a
-          href={"https://www.dropbox.com/s/8bmtjg75ppk0nvk/Resume-CodySehl.pdf"}
+          href={resume}
         >
           resume
         </a>{" "}
