@@ -5057,7 +5057,7 @@
   "resolved" "https://registry.npmjs.org/functional-red-black-tree/-/functional-red-black-tree-1.0.1.tgz"
   "version" "1.0.1"
 
-"gatsby-cli@^4.0.0", "gatsby-cli@^4.12.1":
+"gatsby-cli@^4.12.1", "gatsby-cli@4.12":
   "integrity" "sha512-vlSqri0p9HpLfACFtUCJhxQArzxSvdcUkrN4Jlw8RgeJYxcJyb8VPPDJHJT3rMGRKZFeBaAeqMbqx/eK4K5F1w=="
   "resolved" "https://registry.npmjs.org/gatsby-cli/-/gatsby-cli-4.12.1.tgz"
   "version" "4.12.1"
@@ -5278,7 +5278,7 @@
     "@babel/core" "^7.15.5"
     "@babel/runtime" "^7.15.4"
 
-"gatsby@^4.0.0", "gatsby@^4.0.0-next":
+"gatsby@^4.0.0-next", "gatsby@4.12":
   "integrity" "sha512-/QteQShPAW1dRmG9wrjHmdfQEQxh6WfOi9jnJXAxljAx8UlRt0JFntxMc9gWGUJD6fXYKmf13Jan9izuNDQxNQ=="
   "resolved" "https://registry.npmjs.org/gatsby/-/gatsby-4.12.1.tgz"
   "version" "4.12.1"
