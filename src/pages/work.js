@@ -32,7 +32,7 @@ const items = [
     name: "Gusto",
     location: "Denver",
     description:
-      "Gusto's mission is to create a world where work empowers a better life. Each and every person here believes fully in that mission, and I know I worked with some of the most kind, talented, and curious individuals in existence.\n\nI left Gusto in 2023 Nov, took a wonderful sabbatical, and am currently looking for new opportunities in software development.",
+      "Gusto's mission is to create a world where work empowers a better life. Each and every person here believes fully in that mission, and I know I worked with some of the most kind, talented, and curious individuals in existence.\n\n At Gusto I first worked on the Faster Payments team to enable 2-day, 1-day, and same-day ACH transfers on a system that normally moves money in four days. After that, I moved to Gusto's mobile division and became the sole Mobile Infrastructure Engineer. Everything having to do with mobile development that wasn't shipping features to users was my job: developer tooling, CI, managing vendor relationships, and more.\n\nI left Gusto in 2023 Nov, took a wonderful sabbatical, and am currently looking for new opportunities in software development.",
   },
   {
     image: possibleMobile,
