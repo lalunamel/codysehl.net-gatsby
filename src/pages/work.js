@@ -32,7 +32,7 @@ const items = [
     name: "Gusto",
     location: "Denver",
     description:
-      "Gusto's mission is to create a world where work empowers a better life. Each and every person here believes fully in that mission, and every day I'm reminded that I work with some of the most kind, talented, and curious individuals in existence.\n\nI currently work here as a Software Developer making payments faster.",
+      "Gusto's mission is to create a world where work empowers a better life. Each and every person here believes fully in that mission, and I know I worked with some of the most kind, talented, and curious individuals in existence.\n\nI left Gusto in 2023 Nov, took a wonderful sabbatical, and am currently looking for new opportunities in software development.",
   },
   {
     image: possibleMobile,
