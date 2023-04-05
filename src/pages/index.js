@@ -13,8 +13,7 @@ export default () => (
     <PageHeader>
       <Header>Cody Sehl</Header>
       <Subheader>
-        is a software developer in Denver, Colorado. <br />
-        He currently works as a Software Developer at Gusto.
+        is a software developer in Denver, Colorado
       </Subheader>
     </PageHeader>
 
