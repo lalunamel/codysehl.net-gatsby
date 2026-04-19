@@ -90,10 +90,12 @@ Looking for more guidance? Full documentation for Gatsby lives [on the website](
 
 - **To dive straight into code samples, head [to our documentation](https://www.gatsbyjs.org/docs/).** In particular, check out the _Guides_, _API Reference_, and _Advanced Tutorials_ sections in the sidebar.
 
-## 💫 Deploy
+## Deploy
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-hello-world)
+```shell
+npm run deploy
+```
 
-[![Deploy with ZEIT Now](https://zeit.co/button)](https://zeit.co/import/project?template=https://github.com/gatsbyjs/gatsby-starter-hello-world)
+This builds the site with Gatsby and pushes the output to the `gh-pages` branch, which GitHub Pages serves at codysehl.net. The `CNAME` file is included automatically.
 
 <!-- AUTO-GENERATED-CONTENT:END -->
