@@ -32,7 +32,7 @@ const items = [
     name: "Gusto",
     location: "Denver",
     description:
-      "Gusto's mission is to create a world where work empowers a better life. Each and every person here believes fully in that mission, and I know I worked with some of the most kind, talented, and curious individuals in existence.\n\n At Gusto I first worked on the Faster Payments team to enable 2-day, 1-day, and same-day ACH transfers on a system that normally moves money in four days. After that, I moved to Gusto's mobile division and became the sole Mobile Infrastructure Engineer. Everything having to do with mobile development that wasn't shipping features to users was my job: developer tooling, CI, managing vendor relationships, and more.\n\nI left Gusto in 2023 Nov, took a wonderful sabbatical, and am currently looking for new opportunities in software development.",
+      "Gusto's mission is to create a world where work empowers a better life. Each and every person at the company believes fully in that mission, and I know I worked with some of the most kind, talented, and curious individuals in existence.\n\n At Gusto I first worked on the Faster Payments team to enable 2-day, 1-day, and same-day ACH transfers on a system that normally moves money in four days. After that, I moved to the mobile division and became the sole Mobile Infrastructure Engineer - everything having to do with mobile development that wasn't shipping features to users was my job: tooling, CI, managing vendor relationships, and more.\n\nI then moved into Gusto Pro to help accountants and their small business clients thrive. As a tech lead there, I delivered on several mutli-quarter projects that have made accountant workflows faster and more efficient. I've since moved into a management role within where I lead a team focused on developing novel AI solutions for accountants.",
   },
   {
     image: possibleMobile,
@@ -177,13 +177,12 @@ const Work = props => {
         </Subheader>
       </PageHeader>
       <Subheader style={{ textAlign: "center", marginTop: 50 }}>
-        See <a href="https://perfect-apology-c39.notion.site/Cody-Sehl-Peer-Feedback-670237912b9e4ecc98c6a6f61339077f">what others have to say</a> about working with me or <br/> take a look at my{" "}
-        <a
-          href={resume}
-        >
-          resume
+        See{" "}
+        <a href="https://perfect-apology-c39.notion.site/Cody-Sehl-Peer-Feedback-670237912b9e4ecc98c6a6f61339077f">
+          what others have to say
         </a>{" "}
-        if you want a hard copy.
+        about working with me or <br /> take a look at my{" "}
+        <a href={resume}>resume</a> if you want a hard copy.
       </Subheader>
 
       <WorkItems items={items} />
